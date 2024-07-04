@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.display{
+  
+  justify-content: left;
+  margin-left: 200px;
+ border-left: 5px black;
+ height: 500px;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.article {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: stretch;
+  gap:20px;
+  margin: 2%;
+  flex-wrap: wrap;
+}
+
+/* .bgimage{
+  background-image:url("D:\formexample\public\Assets\images\DIATEC.jpg") ;
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} */
+
+.auth{
+ margin-top: 250px;
+}
+.center{
+  margin-left: 500px;
+}
+
+.column1{
+  float: left;
+  width:50%;
+  text-justify: auto;
+  
+}
+
+.column2{
+  float: right;
+  width:50%
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+fieldset {
+      overflow: hidden
+    }
+    
+    .some-class {
+      float: left;
+      clear: none;
+    }
+    
+    label {
+      float: left;
+      clear: none;
+      display: block;
+      padding: 0px 1em 0px 8px;
+    }
+    
+    .display{
+      justify-content: center;
+    }
+    input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      margin: 2px 0 0 2px;
+    }
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================================================ */
+
+.text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: moveText 1s infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(-60%, -50%);
+  }
+}
+
+
+:root {
+  --base-font-size: 16px; /* Default value, you can change this */
+}
+
+body {
+  font-size: var(--base-font-size);
+}
+
+
